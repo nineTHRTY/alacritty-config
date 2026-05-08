@@ -1,2 +1,2 @@
 # config-files
-A plethra of configuration files.
+A plethora of configuration files.
