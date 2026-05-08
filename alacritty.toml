@@ -1,0 +1,21 @@
+# I use Alacritty's default Linux config directory as our storage location here.
+# mkdir -p ~/.config/alacritty/themes
+# git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+
+# I prefer the "fish" shell.
+# pacman -S fish
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/google.toml"
+]
+live_config_reload = true
+
+[terminal]
+shell = { program = "/bin/fish" }
+
+[window]
+dimensions = { columns = 100, lines = 30 }
+blur = true
+startup_mode = "Windowed"
+title = "Alacritty@ArchLinux"
