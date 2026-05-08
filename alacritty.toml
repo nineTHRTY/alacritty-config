@@ -18,4 +18,4 @@ shell = { program = "/bin/fish" }
 dimensions = { columns = 100, lines = 30 }
 blur = true
 startup_mode = "Windowed"
-title = "Alacritty@ArchLinux"
+title = "alacritty@archlinux"
